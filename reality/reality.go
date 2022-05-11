@@ -21,7 +21,7 @@ type Model struct {
 	Name network.Name
 	Size uint32
 
-	Time sundial.Time
+	Time, Tick sundial.Time
 
 	Terrain terrain.Model
 	Entropy entropy.Model

@@ -40,7 +40,8 @@ type Model struct {
 // Slice of terrain and organic cover,
 // primarily useful as a visual hint.
 type Response struct {
-	Terrain []Type          // biome and heightmap.
+	Terrain []Type // biome and heightmap.
+	Heights []float32
 	Foliage []foliage.Model // organic cover.
 	Pebbles []mineral.Model // rocks/stones
 }

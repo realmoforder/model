@@ -14,6 +14,9 @@ const (
 	// in particular.
 	Idle Type = iota
 
+	// Walking, unit is walking.
+	Walking
+
 	// Reading, the citizen is reading a
 	// book.
 	Reading

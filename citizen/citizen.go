@@ -42,9 +42,6 @@ const (
 	Injured
 )
 
-// Gear bitfield.
-type Gear uint64
-
 // Type of citizen.
 type Type int8
 
