@@ -32,7 +32,8 @@ type Request struct {
 
 // Model is responsible for generating the terrain for a world.
 type Model struct {
-	Seed int64 // deterministic seed for the random number generator.
+	Seed int64  // deterministic seed for the random number generator.
+	Zero uint16 // water level.
 
 	Mods []Request // changes made to the terrain.
 }
